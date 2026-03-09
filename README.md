@@ -61,8 +61,88 @@ Style the footer using background color and center alignment.
 Test your webpage in a browser.
 
 ## PROGRAM:
+~~~
+<html>
+<head>
+<title>Product Card</title>
 
+<style>
+
+body{
+text-align:center;
+font-family:Arial;
+}
+
+
+.card{
+width:300px;
+border:1px solid white;
+border-radius:10px;
+padding:15px;
+margin:auto;
+transition:0.3s;
+}
+
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 10px gray;
+}
+
+img{
+width:100%;
+transition:0.3s;
+}
+
+.card:hover img{
+transform:scale(1.2);
+}
+
+button{
+padding:8px 15px;
+background:blue;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+button:hover{
+background:red;
+}
+
+footer{
+margin-top:50px;
+background:red;
+padding:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h3>Headphones</h3>
+
+<p>Good quality wireless headphones.</p>
+
+<h4>₹1500</h4>
+
+<button>Add to Cart</button>
+
+</div>
+
+<footer>
+Name: SYED ADIL S <br>
+Register No: 212225040453
+</footer>
+
+</body>
+</html>
+~~~
 ## OUTPUT:
+<img width="553" height="444" alt="Screenshot 2026-03-09 142638" src="https://github.com/user-attachments/assets/1b353f1e-5021-4ec6-bc27-b38fd3730ab0" />
 
 ## RESULT:
 The Product Card with Hover Effect was successfully designed using HTML and CSS.
